@@ -1,0 +1,43 @@
+#title {
+    height: 20vh;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+}
+
+#nameTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 5vh 5vh 2.5vh 5vh;
+}
+
+#phone {
+    padding: 2vh;
+    font-size: 1.2rem;
+}
+
+#apps {
+    background-color: rgb(200, 200, 200);
+    height: 70vh;
+    width: 80vw;
+    padding: 0vh 10vw 0 10vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 600;
+    transition: 1s;
+}
+
+#apps img {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 8px;
+    margin: 20vh auto 4vh auto;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#apps img:hover{
+    width: 9vw;
+    height: 9vw;
+}

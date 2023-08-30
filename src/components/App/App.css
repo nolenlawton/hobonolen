@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 
 body {
     margin: 0;
+    width: 100%;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    overflow: hidden
 }

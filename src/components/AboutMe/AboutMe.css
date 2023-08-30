@@ -1,0 +1,176 @@
+:root {
+    --coder: 31, 196, 163;
+    --producer: 29, 132, 205;
+    --home: 100, 100, 100
+}
+
+/* center page */
+#centerPage {
+    display: grid;
+    grid-template-columns: 30vw 40vw 30vw;
+    margin: 3vh auto 3vh auto;
+    font-size: 1.2rem;
+}
+
+b {
+    font-weight: 600;
+}
+
+#left {
+    width: 25vw;
+    margin: auto 0 auto auto
+}
+
+#right {
+    width: 25vw;
+    margin: auto auto auto 0
+}
+
+#right div, #left div {
+    margin: 4vh auto 4vh auto
+}
+
+#mountain {
+    margin: auto;
+    width: 32vw;
+}
+/* end center page */
+
+/* middle page */
+#coder, #producer, #home {
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 4px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgb(100, 100, 100);
+    width: 16vw;
+    padding: 1%;
+}
+
+#coder:hover {
+    background-color: rgb(var(--coder));
+    color: white;
+}
+
+#producer:hover {
+    background-color: rgb(var(--producer));
+    color: white
+}
+/* end middle page */
+
+
+/* center window movement */
+.scrollLeft {
+    transform: translateY(-89%);
+    transition: 1.5s ease-in-out;
+}
+
+.scrollRight {
+    transform: translateY(-89%);
+    transition: 1.5s ease-in-out;
+}
+
+
+.scrollHome {
+    translate: calc(0%);
+    transition: 1.5s ease-in-out;
+}
+/* end window movement */
+
+
+/* info windows */
+#codingInfo, #producerInfo {
+    position:absolute;
+    transition: 1.5s ease-in-out;
+    font-size: 1.5rem;
+    pointer-events: none;
+    padding: 10vw;
+    color: white;
+    bottom: 0;
+    box-shadow: 1px 1px 8px black;
+    top: 30%;
+    right: 0%;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    font-size: 1.8rem;
+}
+
+#codingInfo {
+    background-color: rgba(31, 196, 163);
+}
+
+#codeSkills {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#codeSkills img {
+    width: 2vw;
+    height: 2vw;
+    margin: 0vh 8vw 4vh 8vw;
+}
+
+#producerInfo {
+    background-color: rgb(29, 132, 205);
+}
+
+#producerInfo img {
+    width: 8vw;
+    height: 8vw;
+    margin: 0 12vw 0;
+}
+
+#moreInfo {
+    background-color: rgb(99, 99, 99);
+    top: 30%;
+    right: 0%;
+    width: 80%;
+}
+
+/* transitions */
+.hideCoder {
+    transform: translateY(70vh)
+}
+
+.hideProducer {
+    transform: translateY(70vh)
+}
+/* end info windows */
+
+
+/* button colors */
+.ac {
+    background-color: rgb(var(--coder), 0.2);
+}
+
+.bc {
+    background-color: rgb(var(--coder));
+    color: white;
+}
+
+.ap {
+    background-color: rgb(var(--producer), 0.2);
+}
+
+.bp {
+    background-color: rgb(var(--producer));
+    color: white;
+}
+
+.ah {
+    background-color: rgb(var(--home), 0.2);
+}
+
+.bh {
+    background-color: rgb(var(--home));
+    color: white;
+}
+/* end button colors */
+
+#bottom {
+    display: flex;
+    justify-content: space-around;
+}
