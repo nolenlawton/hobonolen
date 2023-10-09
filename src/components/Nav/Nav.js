@@ -1,6 +1,6 @@
 import './Nav.css'
 import logo from './Screenshot 2023-08-12 at 3.37.15 PM.png'
-import resume from './Resume.pdf'
+import resume from './Nolens Resume.pdf'
 import githubLogo from './github.png'
 import linkdelnLogo from './linkdeln.png'
 import { useState } from 'react';

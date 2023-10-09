@@ -27,6 +27,11 @@ import lessons from './BabyKnow/Lessons.mp4'
 import myPath from './BabyKnow/My Path.mp4'
 import myStudents from './BabyKnow/My Students.mp4'
 
+import nutube from './Nutube/nutube.mp4'
+import desktop from './Nutube/desktop.mp4'
+import mobile from './Nutube/mobile.mp4'
+
+
 const projects = [
     {   title: 'Hobtropolis', 
         descriptions: {short: 'An online arcade with some of my favorite games!', long: 'An online retro arcade containing remixes to some of my favorite childhood games. Show off your skills on the global leaderboards or try to top your personal bests! Special thanks to Prime Digital Academy for the boost to start my first personal project. I plan to expand and create more games in the world of Hobtropolis.'}, 
@@ -42,6 +47,11 @@ const projects = [
         descriptions: {short: 'Learning Management System (LMS) and Course Creator', long: 'Baby Know is a learning management system (LMS) that hosts content for the Baby Know: Bodies, Hearts & Minds program, which provides new parents with a holistic approach to their child’s development. The application is built for three types of users: administrators, students and teachers. The Baby Know program includes information, tools and strategies to create strong parent-child relationships, incorporating developmental milestones and nurturing the emotional well-being of all family members. Parents learn through video lectures, demonstrations, and activities, covering all aspects of development.'}, 
         media: {display: [units, unit, registrants, lessons, myPath, myStudents], title: ['Units Page (admin)', 'Unit Page (admin)', 'Registrants Page (admin)', 'Units - Lessons Page (student)', 'My Path Page (students)', 'My Students Page (teacher)']},
         skills: { photo: [html, css, js, react, node, redux, sql, git, mui, aws], website: ['https://html.com/html5/L', 'https://www.css3.com/', 'https://www.javascript.com/', 'https://react.dev/', 'https://nodejs.org/en', 'https://redux.js.org/', 'https://www.postgresql.org/', 'https://git-scm.com/', 'https://mui.com/', 'https://aws.amazon.com/'] }
+    },
+    {   title: 'Nutube', 
+        descriptions: {short: 'A YouTube Clone using CSS', long: 'NuTube is a clone of YouTube I created to practice my css skills. The goal was to practice responsive web design and follow basic UI practices on a well-known popular website. I hope to include this responsive design in projects moving forward.'}, 
+        media: {display: [nutube, desktop, mobile], title: ['Responsive', 'Desktop', 'Mobile']},
+        skills: { photo: [html, css, js, react, git, mui], website: ['https://html.com/html5/L', 'https://www.css3.com/', 'https://www.javascript.com/', 'https://react.dev/', 'https://git-scm.com/', 'https://mui.com/'] }
     },
 ]
 

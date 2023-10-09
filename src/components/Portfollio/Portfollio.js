@@ -24,8 +24,8 @@ function Portfollio () {
     return (
         <div id='portfollio'>
             <div id='top'>
-                <div>{projects[projectIndex].title}</div>
-                <div>Projects</div>
+                <div><b>{projects[projectIndex].title}</b></div>
+                <div><b>Projects</b></div>
             </div>
 
 
