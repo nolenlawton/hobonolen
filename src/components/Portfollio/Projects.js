@@ -48,11 +48,11 @@ const projects = [
         media: {display: [units, unit, registrants, lessons, myPath, myStudents], title: ['Units Page (admin)', 'Unit Page (admin)', 'Registrants Page (admin)', 'Units - Lessons Page (student)', 'My Path Page (students)', 'My Students Page (teacher)']},
         skills: { photo: [html, css, js, react, node, redux, sql, git, mui, aws], website: ['https://html.com/html5/L', 'https://www.css3.com/', 'https://www.javascript.com/', 'https://react.dev/', 'https://nodejs.org/en', 'https://redux.js.org/', 'https://www.postgresql.org/', 'https://git-scm.com/', 'https://mui.com/', 'https://aws.amazon.com/'] }
     },
-    {   title: 'Nutube', 
-        descriptions: {short: 'A YouTube Clone using CSS', long: 'NuTube is a clone of YouTube I created to practice my css skills. The goal was to practice responsive web design and follow basic UI practices on a well-known popular website. I hope to include this responsive design in projects moving forward.'}, 
-        media: {display: [nutube, desktop, mobile], title: ['Responsive', 'Desktop', 'Mobile']},
-        skills: { photo: [html, css, js, react, git, mui], website: ['https://html.com/html5/L', 'https://www.css3.com/', 'https://www.javascript.com/', 'https://react.dev/', 'https://git-scm.com/', 'https://mui.com/'] }
-    },
+    // {   title: 'Nutube', 
+    //     descriptions: {short: 'A YouTube Clone using CSS', long: 'NuTube is a clone of YouTube I created to practice my css skills. The goal was to practice responsive web design and follow basic UI practices on a well-known popular website. I hope to include this responsive design in projects moving forward.'}, 
+    //     media: {display: [nutube, desktop, mobile], title: ['Responsive', 'Desktop', 'Mobile']},
+    //     skills: { photo: [html, css, js, react, git, mui], website: ['https://html.com/html5/L', 'https://www.css3.com/', 'https://www.javascript.com/', 'https://react.dev/', 'https://git-scm.com/', 'https://mui.com/'] }
+    // },
 ]
 
 export default projects
