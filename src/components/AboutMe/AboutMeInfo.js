@@ -22,7 +22,7 @@ function AboutMeInfo ({props}) {
     return (
         <>
             <div className={canvas === 'left' ? 'showCoder' : 'hideCoder'} id='codingInfo' > 
-                <div>I am a full-stack developer who is currently looking for work. I started learning to code in <b>July of 2022</b> where I found Prime Digital Academy. At this bootcamp I learned front-end and back-end develpment starting with JQuery and making our way to JavaScript. Before aquiring my full-stack certification, I worked on solo and client projects to prove what I learned throughout. (projects are posted in my portfollio!) Since graduating, I have worked on personal projects while job searching.</div>
+                <div>I am a full-stack developer who is currently looking for work. I started learning to code in <b>July of 2022</b> where I found Prime Digital Academy. At this bootcamp I learned front-end and back-end JavaScript starting with JQuery and making our way to React. Before aquiring my full-stack certification, I worked on solo and client projects to prove what I learned throughout. (projects are posted in my portfollio.) Since graduating, I have worked on personal projects while job searching.</div>
                 <div id="codeSkills">
                     {skills.photo.map((skill, i) => {
                         return <img onClick={() => window.open(skills.website[i], '_blank')} src={skill} alt={i} key={i} />
